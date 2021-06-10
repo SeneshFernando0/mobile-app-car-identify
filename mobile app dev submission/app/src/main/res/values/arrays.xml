@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="carname">
+        <item>Select car....</item>
+        <item>BMW</item>
+        <item>AUDI</item>
+        <item>LAMBORGHINI</item>
+        <item>FERRARI</item>
+        <item>NISSAN</item>
+        <item>MERCEDES</item>
+    </string-array>
+
+</resources>

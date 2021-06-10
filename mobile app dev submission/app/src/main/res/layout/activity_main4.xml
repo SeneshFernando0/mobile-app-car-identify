@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity4">
+
+    <TextView
+        android:id="@+id/timer3"
+        android:layout_width="83dp"
+        android:layout_height="40dp"
+        android:text="" />
+
+    <TextView
+        android:id="@+id/QuestionView"
+        android:layout_width="379dp"
+        android:layout_height="67dp"
+        android:text="default"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="58dp"
+        tools:layout_editor_absoluteY="16dp" />
+
+    <ImageButton
+        android:id="@+id/buttonImage1"
+        android:layout_width="383dp"
+        android:layout_height="165dp"
+        android:adjustViewBounds="true"
+        android:scaleType="fitXY"
+        android:text="Button"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="9dp"
+        tools:layout_editor_absoluteY="231dp" />
+
+    <ImageButton
+        android:id="@+id/buttonImage2"
+        android:layout_width="386dp"
+        android:layout_height="166dp"
+        android:adjustViewBounds="true"
+        android:scaleType="fitXY"
+        android:text="Button"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="9dp"
+        tools:layout_editor_absoluteY="69dp" />
+
+    <ImageButton
+        android:id="@+id/buttonImage3"
+        android:layout_width="386dp"
+        android:layout_height="163dp"
+        android:adjustViewBounds="true"
+        android:scaleType="fitXY"
+        android:text="Button"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="9dp"
+        tools:layout_editor_absoluteY="391dp" />
+
+    <TextView
+        android:id="@+id/FeedBackView"
+        android:layout_width="386dp"
+        android:layout_height="73dp"
+        android:background="#DCDCDC"
+        android:gravity="center_horizontal"
+        android:text=""
+        android:textAlignment="center"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="10dp"
+        tools:layout_editor_absoluteY="552dp" />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="61dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/Submit"
+            android:layout_width="206dp"
+            android:layout_height="47dp"
+            android:text="Submit"
+            tools:ignore="MissingConstraints"
+            tools:layout_editor_absoluteX="9dp"
+            tools:layout_editor_absoluteY="633dp" />
+
+        <Button
+            android:id="@+id/exit4"
+            android:layout_width="179dp"
+            android:layout_height="47dp"
+            android:text="EXIT"
+            tools:ignore="MissingConstraints"
+            tools:layout_editor_absoluteX="216dp"
+            tools:layout_editor_absoluteY="633dp" />
+
+    </LinearLayout>
+
+</LinearLayout>

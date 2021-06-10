@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/rootcointainer"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+    <Button
+        android:id="@+id/toscene2"
+        android:layout_width="247dp"
+        android:layout_height="40dp"
+        android:onClick="onclick1"
+        android:text="to scene 2">
+
+
+    </Button>
+
+    <Button
+        android:id="@+id/toscene3"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:onClick="onclick2"
+        android:text="to scene 3">
+
+
+    </Button>
+
+    <Button
+        android:id="@+id/toscene4"
+        android:layout_width="171dp"
+        android:layout_height="40dp"
+        android:text="to scene 4">
+
+    </Button>
+
+
+</TableLayout>
